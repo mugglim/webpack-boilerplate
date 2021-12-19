@@ -8,7 +8,7 @@
 -   [0. 패키지 정리](./docs/0.%20패키지%20정리.md)
 -   [1. 웹팩을 사용하는 이유](./docs/1.%20웹팩을%20사용하는%20이유.md)
 -   [2. 웹팩의 주요 속성](./docs/2.%20웹팩의%20주요%20속성.md)
--   [3. Babel이란?]
+-   [3. Babel](./docs/3.%20Babel.md)
 -   [4. css를 위한 loader]
 -   [5. image를 위한 loader]
 -   [6. HtmlWebpackPlugin]
