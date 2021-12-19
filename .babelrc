@@ -1,0 +1,24 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": {
+					// 최근 2개의 브라우저 버전만 허용
+					// ie 10버전 이하는 제외
+					"browsers": ["last 2 versions", "not ie <= 10"]
+				}
+			}
+		]
+	],
+	"plugins": [
+		[
+			"@babel/plugin-transform-runtime",
+			{
+				// https://babeljs.io/docs/en/babel-plugin-transform-runtime#corejs
+				"corejs": 3,
+				"proposals": true
+			}
+		]
+	]
+}
