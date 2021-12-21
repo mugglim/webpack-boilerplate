@@ -10,7 +10,7 @@
 -   [2. 웹팩의 주요 속성](./docs/2.%20웹팩의%20주요%20속성.md)
 -   [3. Babel](./docs/3.%20Babel.md)
 -   [4. css 위한 loader](./docs/4.%20css를%20위한%20loader.md)
--   [5. image를 위한 loader]
+-   [5. 이미지, 폰트를 위한 loader](docs/5.%20이미지,%20폰트를%20위한%20loader.md)
 -   [6. HtmlWebpackPlugin]
 -   [8. webpack-dev-server]
 -   [7. With React]
