@@ -6,6 +6,7 @@ module.exports = {
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'dist'),
+		clean: true,
 		environment: {
 			arrowFunction: false,
 		},
@@ -21,7 +22,19 @@ module.exports = {
 			},
 			{
 				test: /\.s[ac]ss$/i,
-				use: ['style-loader', 'css-loader', 'sass-loader'],
+				use: [
+					'style-loader',
+					{ loader: 'css-loader', options: { esModule: false } },
+					'sass-loader',
+				],
+			},
+			{
+				test: /\.(png|jpe?g|gif|svg)$/i,
+				loader: 'url-loader',
+				options: {
+					name: 'assets/[name].[ext]',
+					limit: 10000, // 단위 : byte
+				},
 			},
 		],
 	},
