@@ -11,9 +11,9 @@
 -   [3. Babel](./docs/3.%20Babel.md)
 -   [4. css 위한 loader](./docs/4.%20css를%20위한%20loader.md)
 -   [5. 이미지, 폰트를 위한 loader](docs/5.%20이미지,%20폰트를%20위한%20loader.md)
--   [6. HtmlWebpackPlugin]
+-   [6. HtmlWebpackPlugin](docs/6.%20HtmlWebpackPlugin.md)
 -   [7. webpack-dev-server]
--   [8. With React]
+-   [8. With React(optional)]
 
 ### 👀 Ref.
 
