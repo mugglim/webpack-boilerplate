@@ -5,9 +5,9 @@ import largeSizenewtuxtImage from '@/assets/newtux-21kb.svg';
 
 import '@/styles/index.scss';
 
-const $target = $('#root');
+const $target = $('#root') as HTMLElement;
 
-const template = `
+const template: string = `
 	<h1>Hello webpack-boilerplate</h1>
 	<h2> 1 + 2 = ${add(1, 2)}</h2>
 
