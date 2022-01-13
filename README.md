@@ -14,7 +14,7 @@
 -   [6. HtmlWebpackPlugin](docs/6.%20HtmlWebpackPlugin.md)
 -   [7. webpack-dev-server](docs/7.%20webpack-dev-server.md)
 -   [8. Typescript(optional)](docs/8.%20TypeScript.md)
--   9. With React(optional)
+-   [9. With React(optional)]
 
 ### 👀 Ref.
 
