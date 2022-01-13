@@ -1,4 +1,7 @@
-const $ = (query: string, base: HTMLDocument = document) => base.querySelector(query);
-const add = (x: number, y: number) => x + y;
+type QuerySelectorType = (query: string) => HTMLElement | null;
+type BinaryFnType = (x: number, y: number) => number;
+
+const $: QuerySelectorType = query => document.querySelector(query);
+const add: BinaryFnType = (x, y) => x + y;
 
 export { $, add };
